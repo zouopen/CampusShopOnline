@@ -9,9 +9,9 @@ spring:
   freemarker:
     cache: false
   redis:
-    host:
+    host: 120.79.81.34
     port: 6379
-    password:
+    password: zoupen..
   mvc:
     static-path-pattern: /**
 #    禁用redis的repositories
@@ -28,27 +28,27 @@ server:
 
 #微信公众号及支付密钥
 wechat:
-  mpAppId:
-  mpAppSecret:
+  mpAppId: wx93230f2e8bcd59d8
+  mpAppSecret: f8d3750b43fac7081c704359acd9bb28
   openAppId:
   openAppSecret:
-  mchId:
-  mchKey:
-  keyPath:
-  notifyUrl: 
+  mchId: 1516142501
+  mchKey: c902a5cs856222s4d8z22a6d8f452668
+  keyPath: F:\var\h5.p12
+  notifyUrl: http://elliopeng.nat100.top/pay/notify
 
 #需要正确的域名方可调用此参数
 
 projectUrl:
-  wechatMpAuthorize:
-  wechatOpneAuthorize:
-  PlatformUrl:
+  wechatMpAuthorize: http://120.79.81.34
+  wechatOpneAuthorize: http://120.79.81.34
+  PlatformUrl: http://120.79.81.34
 
 #极光推送密钥
 plush:
-  appKey:
-  masterSecret:
-  groupPushKey:
-  groupMasterKey:
+  appKey: 9dee650668206bb3ade63b5f
+  masterSecret: a94c140535b49c412644bf7f
+  groupPushKey: 027fd88b7ab47784325b7b2b
+  groupMasterKey: 0d0bfd547a0bb34b3ced518c
 
 

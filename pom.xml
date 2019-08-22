@@ -160,11 +160,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <finalName>ship</finalName>
-                    <fork>true</fork>
-                    <outputDirectory>F:\</outputDirectory>
-                </configuration>
             </plugin>
         </plugins>
     </build>
