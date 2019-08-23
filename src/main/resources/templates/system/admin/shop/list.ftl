@@ -116,7 +116,7 @@
                     "data": null,
                     "render": function (data) {
                         var btn = "";
-                        btn = '<a class="btn btn-xs btn-info" onclick="securityToListAjax();" data-title="修改" target="modal" modal="lg" href="/shop/edit?id='+data.shopId +'">修改</a> &nbsp;'
+                        btn = '<a class="btn btn-xs btn-info" onclick="securityToListAjax();" data-title="修改" target="modal" modal="lg" href="/shop/edit?id='+data.shopId +'">更改</a> &nbsp;'
                                 +'<a class="btn btn-xs btn-pinterest" callback="securityReload();" data-body="确认要删除吗？" target="ajaxTodo" href="/shop/delete?id='+ data.shopId + '">删除</a>';
 
                         return btn;
